@@ -91,9 +91,9 @@ class Monitor(Thread):
     def insertDB(self):
         try:
             with self.lock:
-                con = mdb.connect("156.17.189.36",
-                                    "user_insert",
-                                    "up",
+                con = mdb.connect("xxxxxxx",
+                                    "pi",
+                                    "xxxx",
                                     "temp_monitor");
                 cursor = con.cursor()
 
